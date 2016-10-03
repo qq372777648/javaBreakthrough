@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//src/ChangeCharsetUtil/ChangeCharsetUtil.java=UTF-8
 encoding//src/ChangeCharsetUtil/UTF8Test.java=UTF-8
+encoding//src/DES_AES/aes_192_256key/lzw_readme.txt=gbk
 encoding//src/digest=UTF-8
 encoding//src/digest/MessageDigestUtil.java=UTF-8
 encoding//src/gbkpkg=gbk
