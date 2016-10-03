@@ -1,12 +1,12 @@
 package digest;
-import java.io.IOException;
+import base64.Base64Util;
 
 
 public class Main {
 
 	//待加密的明文
 	public static final String DATA = "jikexueyuan";
-	public static final String PATH = "mysql-installer-web-community-5.6.22.0.msi";
+	public static final String PATH = "src/digest/MessageDigestUtil.java";
 	
 	
 	public static void main(String[] args) throws Exception {
