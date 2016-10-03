@@ -24,7 +24,7 @@ public class ChangeCharsetUtil {
 		
 		//111111输入文件夹
 //		File file = new File("src/ChangeCharsetUtil");
-		File file = new File("src/base64");
+		File file = new File("src/utf8pkg");
 //		System.out.println(file.getAbsolutePath());
 		
 		
@@ -39,6 +39,7 @@ public class ChangeCharsetUtil {
 			}
 		});
 		
+		//键入文字 -- gbk编码--- 字节    ---文件读取（gbk编码解释字节）--正确内容
 		
 		//gbk编码文件--gbk编码集读取 ---到底原始字节---utf8编码写入文件--utf8编码读取文件--正确内容
 		for (File f:files) {
