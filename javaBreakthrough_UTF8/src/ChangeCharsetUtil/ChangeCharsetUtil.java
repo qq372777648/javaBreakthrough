@@ -22,7 +22,7 @@ public class ChangeCharsetUtil {
 	public static void main(String[] args) {
 		System.out.println(ChangeCharsetUtil.class.getResource(""));//类路径
 		
-		if(true)
+		if(false)
 			return;
 		//111111输入文件夹
 //		File file = new File("src/ChangeCharsetUtil");

@@ -54,7 +54,7 @@ public class Main {
 		
 		
 		
-		/* Test RSA */
+		/* Test RSA  公钥加密，私钥解密*/
 		Map<String, Object> keyMap = RSAUtil.initKey();
 		RSAPublicKey rsaPublicKey = RSAUtil.getPublicKey(keyMap);
 		RSAPrivateKey rsaPrivateKey = RSAUtil.getPrivateKey(keyMap);
