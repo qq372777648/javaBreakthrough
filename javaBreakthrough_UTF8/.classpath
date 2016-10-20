@@ -14,5 +14,12 @@
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/xml_dom4j/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/excel/commons-codec-1.10.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/excel/jdom.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/excel/jvc.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/excel/poi-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/excel/poi-ooxml-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/excel/poi-ooxml-schemas-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/excel/xmlbeans-2.3.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
