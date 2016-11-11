@@ -1,0 +1,17 @@
+keytool -genkeypair -keyalg RSA -keysize 2048 -sigalg SHA1withRSA -validity 3650 -alias www.cpsys.com -keystore cpsystem.keystore//创建库（直接给服务器用就可以了）
+
+keytool -certreq -alias www.cpsys.com  -keystore cpsystem.keystore -file lzwcom.csr -v  //用于提交给ca 
+keytool -exportcert -alias www.cpsys.com -keystore cpsystem.keystore -file lzwcom_certificate.cer -rfc // 用于客户手动安装证书
+
+
+
+keytool -genkey -alias client -keyalg RSA -storetype PKCS12 -keystore client1.p12  //创建个人证书（可以直接导入浏览器，可以双击安装）
+keytool -export -keystore client1.p12 -storetype PKCS12 -alias client -file client1key.cer //导出个人证书（可以双击安装）
+
+
+
+
+keytool -import -file client1key.cer -keystore cpsystem.keystore -v //服务器添加信任个人证书
+
+keytool -import -file lzwcom_certificate.cer -keystore "C:\Program Files\Java\jdk1.7.0_67\jre\lib\security\cacerts" -v //client服务器添加 server证书
+java cacerts 默认密码changeit

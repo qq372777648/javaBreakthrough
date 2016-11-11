@@ -27,6 +27,15 @@ public class Main {
 		System.out.println("RSA Verify : " + isValid);
 		
 		
+//		// public Sign
+//				byte[] sign3 = RSASignatureUtil.sign(DATA.getBytes(), rsaPublicKey);
+//				System.out.println("RSA Sign : " + BytesToHex.fromBytesToHex(sign3));
+//				
+//				//private Verify
+//				boolean isValid3 = RSASignatureUtil.verify((DATA).getBytes(),rsaPrivateKey , sign3);
+//				System.out.println("RSA Verify : " + isValid3);
+		
+		
 		
 		
 		
