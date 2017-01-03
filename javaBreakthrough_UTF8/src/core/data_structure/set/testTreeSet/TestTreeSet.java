@@ -10,6 +10,7 @@ public class TestTreeSet {
 		ts.add(20);
 		ts.add(10);
 		ts.add(40);
+		ts.add(40);
 		ts.add(8);
 		for(Iterator it=ts.iterator();it.hasNext();){
 			System.out.println(it.next());
